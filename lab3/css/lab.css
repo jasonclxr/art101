@@ -11,9 +11,9 @@ p#main_subtitle {
   margin-top: -15px;
 }
 
-#art101_file_structure {
+#art101_file_structure, #lab3_online {
   width: 700px;
-  height: 500px;
+  height: 450px;
 }
 
 #homepage_browser_html_code, #homepage_html_code {
