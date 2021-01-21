@@ -1,8 +1,33 @@
-#lab_2 {
-  color : red;
-  font-size: 35px;
+.self_description h2 {
+  color: white;
 }
 
-.lab a {
+.lab a, .u_lab a {
   color: green;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Helvetica;
+  line-height: 2;
+}
+
+.u_lab a {
+  color: red;
+}
+
+p#about_me {
+  color: white;
+  position: static;
+  border: 3px solid #686868;
+}
+
+#my_photo {
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  left: 625px;
+  top: 10px;
+}
+
+body {
+  background-color: #282828;
 }

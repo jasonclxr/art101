@@ -1,0 +1,22 @@
+#main_title, #caption {
+  color: white;
+}
+
+#caption {
+  margin-bottom: 3px;
+}
+
+p#main_subtitle {
+  color:white;
+  margin-top: -15px;
+}
+
+#art101_file_structure {
+  width: 700px;
+  height: 500px;
+}
+
+#homepage_browser_html_code, #homepage_html_code {
+  width: 700px;
+  height: 700px;
+}
