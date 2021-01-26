@@ -1,0 +1,29 @@
+#main_title {
+  color: white;
+}
+
+p#main_subtitle {
+  color:white;
+  margin-top: -15px;
+}
+
+p {
+  color: white;
+}
+
+body {
+  background-color: #282828;
+}
+
+#image {
+  height: 50%;
+  width: 50%;
+}
+
+div {
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  text-align: center;
+}
