@@ -1,0 +1,5 @@
+#standard_img {
+  height: 50%;
+  width: 50%;
+  filter: brightness(50%);
+}
