@@ -1,0 +1,40 @@
+body {
+  background-color: #949cdf;
+}
+
+hr {
+  width: 80%;
+}
+
+#center {
+  background-color: #a7c5eb;
+  color: #19456b;
+  text-align: center;
+  padding: 2%;
+  font-weight: bold;
+}
+
+#bigWords {
+  font-family: cursive;
+  font-size: 500%;
+  color: white;
+}
+
+#triple {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background-color: #949cdf;
+  text-align: center;
+}
+
+#result {
+  background-color: #949cdf;
+  text-align: center;
+}
+
+.column {
+  display: table-cell;
+  padding: 2%;
+  width: 80%;
+}
