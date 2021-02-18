@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab 11 - Libraries & jQuery</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src = "js/lab11.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div id="heading">
+			<p>Lab 11</p>
+			<p>Jason Blecman and Jesus Picos</p>
+	</div>
+	<div id="center">
+		<p id="bigWords">&#128187; Libraries & jQuery &#128187;</p>
+	</div>
+	<div id="double">
+		<div class="column">
+			<h2 id = "challengeTitle">Challenge</h2>
+			<p class = "challengeText">Working with your partner, experiment with jQuery.</p>
+			<div id="challengeOutput"></div>
+			<h2 id = "designTitle">Design</h2>
+			<p class = "designText">This design is a more of a night mode style of web page. We wanted to
+				make it easier on the eyes while still looking nice.
+			</p>
+			<div id="designOutput"></div>
+		</div>
+		<div class="column">
+			<h2 id = "problemTitle">Problems</h2>
+			<p class = "problemText">
+				Jason - The worst part was figuring out why my jQuery wasn’t working
+				at all. Jesus and I messed with append, prepend, appendTo - you name
+				it. What we finally found out was the problem was that lab11.js didn’t
+				have the defer tag in it so the jquery was trying to work with what was
+				basically an empty HTML doc. Once I added that everything worked flawlessly.
+				The other hard part personally for me was getting the appending to
+				work for multiple tags on tags. Adding a label tag onto a input tag onto a
+				div on the doc was kind of confusing.
+				<br><br>
+				Jesus- The JS added buttons did not want to comply with my css.
+				I tried to round them out and give them a gradient but those effects
+				would clash to create a square with white cross in the center and
+				gradient boxes in each corner. In the end I just decided that a
+				simple gray button would still fit our website. Side note finding
+				the right purple for this website took way too long. Also I had to
+				figure out how to get emojis to work, turns out there needs to be
+				an “;” at the end of the emoji code to stop it from nullifying
+				literally all the code after it!
+			</p>
+			<div id="problemOutput"></div>
+		</div>
+	</div>
+	<div id="result">
+		<h2 id="blank">Results</h2>
+			<p>&#10024; This webite that you are looking at. &#10024;</p>
+	</div>
+</body>
+</html>
