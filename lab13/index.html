@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab 13 - Loops</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src = "js/lab11.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div id="heading">
+			<p>Lab 13</p>
+			<p>Jason Blecman and Jesus Picos</p>
+	</div>
+	<div id="center">
+		<p id="bigWords">&#11093; Loops &#11093;</p>
+	</div>
+	<div id="double">
+		<div class="column">
+			<h2 id = "challengeTitle">Challenge</h2>
+			<p class = "challengeText">Working with your partner, experiment with loops.</p>
+			<div id="challengeOutput"></div>
+			<h2 id = "designTitle">Design</h2>
+			<p class = "designText">
+				Not much was changed to the design. The only big thing done to the CSS
+				was the addition of the columns at the end that make the output
+				way more palatable.
+			</p>
+			<div id="designOutput"></div>
+		</div>
+		<div class="column">
+			<h2 id = "problemTitle">Problems</h2>
+			<p class = "problemText">
+				Jason - The biggest challenge I had with this project was trying
+				to think up a good way to manage the strings if it satisfied multiple
+				cases. Eventually I just decided to have a bunch of if blocks that
+				decide whether it satisfies the case, and if so, to concatenate onto a
+				main string. Then… this would concatenate onto a bigger string that
+				would eventually be outputted to the output div.
+				<br><br>
+				Jesus- Everything worked like a charm. The columns were added through
+				the quick addition of "column-count: 5;". After that it was just some
+				quick patches to get the JS created elements aligned and visible.
+			</p>
+			<div id="problemOutput"></div>
+		</div>
+	</div>
+	<div id="result">
+		<h2 id="blank">Results</h2>
+			<h3>&#10024; These lovely columns that you are looking at. &#10024;</h3>
+	</div>
+	<div id="inputs">
+		<label for="fizzFactor">Fizz Factor: </label>
+		<input id = "fizzFactor" type="number" min = 0 value = 3></input>
+		<label for="buzzFactor">Buzz Factor: </label>
+		<input id = "buzzFactor" type="number" min = 0 value = 5></input>
+		<label for="boomFactor">Boom Factor: </label>
+		<input id = "boomFactor" type="number" min = 0 value = 7></input>
+		<label for="bangFactor">Bang Factor: </label>
+		<input id = "bangFactor" type="number" min = 0 value = 9></input>
+		<br><br>
+		<label for="input">Total Size: </label>
+		<input id = "input" type="number" min = 0 value = 200></input>
+		<input id = "button" type="button" value = "Generate"></input>
+	</div>
+	<hr>
+	<div id="output">
+
+	</div>
+</body>
+</html>
