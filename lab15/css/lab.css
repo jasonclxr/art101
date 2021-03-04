@@ -1,0 +1,144 @@
+body {
+  background-color: ##8684BF;
+  width: 100%;
+  height: 30%;
+  padding: none;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
+hr {
+  style: solid blue;
+  width: 100%;
+  height: 80%;
+}
+
+h2 {
+  background-color: #AAD2E7;
+  line-height: 2.5;
+  border-radius: 20px;
+  color: black;
+}
+
+.button {
+  background-color: #C4CACE;
+  margin: 1%;
+}
+
+#blank {
+  text-align: center;
+  margin: auto;
+  width: 96%;
+  margin-bottom: 1.5%;
+}
+
+#heading {
+  background-color: #DFF2C2;
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  margin-top: 0%;
+  width: 97%;
+  color: black;
+  text-emphasis: bold;
+  border-bottom: solid white 3px;
+  font-size: 150%;
+  position: fixed;
+}
+
+#heading p{
+  margin: 1% 0px;
+}
+
+#center {
+  background-color: #E95D46;
+  color: black;
+  text-align: center;
+  padding: 2%;
+  padding-bottom: 1%;
+}
+
+#bigWords {
+  font-size: 500%;
+  color: black;
+}
+
+#double {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background-color: white;
+  text-align: center;
+}
+
+#result {
+  background-color: #8684BF;
+  text-align: center;
+  font-size: 100%;
+  color: black;
+  padding-bottom: 2%;
+}
+
+#krabsHolder {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.problemClass {
+  font-weight: bold;
+  color: white;
+}
+
+.challengeClass {
+  color: red;
+  font-size: 150%;
+}
+
+.designClass {
+  font-family: cursive;
+  text-emphasis-style: circle;
+
+}
+
+.smallColumn {
+  display: inline-block;;
+  width: 40%;
+  color: black;
+}
+
+.column {
+  display: table-cell;
+  padding: 2%;
+  width: 80%;
+  background-color: #8684BF;
+  color: black;
+}
+
+#sided {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  text-align: center;
+}
+
+#buttons {
+  margin-left: 42.5%;
+  display: inline-block;
+}
+
+#output {
+  color: black;
+  text-align: center;
+  column-count: 5;
+}
+
+#inputs {
+  color: black;
+  width: 20%;
+  margin-left: 40%;
+  padding-bottom: 2%;
+}

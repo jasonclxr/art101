@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab 15 - AJAX</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script src = "js/lab.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div id="heading">
+			<p>Lab 15</p>
+			<p>Jason Blecman and Jesus Picos</p>
+	</div>
+	<div id="center">
+		<p id="bigWords">&#128276;&#129408; AJAX &#129408;&#128276;</p>
+	</div>
+	<div id="double">
+		<div class="column">
+			<h2 id = "challengeTitle">Challenge</h2>
+			<p class = "challengeText">Working with your partner, experiment with jQuery and AJAX.</p>
+			<div id="challengeOutput"></div>
+			<h2 id = "designTitle">Current Mood</h2>
+			<div id="krabsHolder">
+				<img src="img/krabsDay15.png" alt="mood" class="smallColumn">
+				<p class="smallColumn">
+					In honor of this being our 15th lab for this class we decided to pay
+					homage to the sponge bob meme of Mr. Krabs deliriously ringing a bell
+					while screaming "day 15!". Thus this hurrendous color color scheme
+					was born.
+					<br>
+					This episode of sponge bob is a constant mood for the average
+					college student. Its got sleep deprevation and over working,
+					what else describes the life of a college student as finals
+					come around?
+				</p>
+			</div>
+
+			<div id="designOutput"></div>
+		</div>
+		<div class="column">
+			<h2 id = "problemTitle">Problems</h2>
+			<p class = "problemText">
+				Jason - I made the mistake of trying to go TOO hard on the
+				JavaScript/AJAX side. I LOVE jQuery now however, that is an
+				ACTUAL god send of a tool. My problem was I wanted to make
+				this sort of like Pokemon index navigator where you could
+				sort by different sides of Pokemon attributes and it would
+				list everything out accordingly. The PROBLEM with that is
+				the JSON endpoint on the website we were using didn’t
+				really have a perfect uniform structure to how it send
+				data, so having to make special cases for all of those
+				was going to be a pain. For a project hell yeah, for a
+				lab… maybe next time.
+				<br>
+				<br>
+				Jesus - Aside from trying to make the image show up on
+				the same line from the text everything went over pretty
+				smoothly for me. Ran into an issue where elements became
+				invisible but that was due to a “display: “ that didn't
+				have a ; at the end to stop it from nullifying the rest
+				of the code.
+			</p>
+			<div id="problemOutput"></div>
+		</div>
+	</div>
+	<div id="result">
+		<h2 id="blank">Results</h2>
+			<h3>&#10024; Want to learn about cool numbers? &#10024;</h3>
+	</div>
+	<hr><div id="buttons">
+		<button id="Male">Male</button>
+		<button id="Female">Female</button>
+		<button id="Genderless">Genderless</button>
+	</div>
+	<hr>
+	<div id="output">
+
+	</div>
+</body>
+</html>
